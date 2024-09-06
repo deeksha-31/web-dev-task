@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    text-align: center;
+    font-size: large;
+}
+header h1{
+    font-size: 25px;
+    margin: 20px auto;
+    color: white;
+    background-color: rgb(159, 70, 241);
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid rgb(159, 70, 241);
+    text-align: center;
+    width: 300px;
+}
+.intro{
+    text-align: center;
+    color:black;
+    padding-top:10px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    padding-bottom: 10px; 
+}
+
+.intro h3{
+    font-size: 20px;
+    margin-bottom: 10px;   
+}
+
+hr{
+    margin: 30px 0;
+    border-top: 1.5px dashed blueviolet;
+    height: 1px;
+    width: 90%;
+    margin: auto;
+}
+
+.team-section{
+    padding: 20px;
+    text-align: center;
+}
+
+.team-section h1{
+    font-size: 27px;
+    color: rgb(90, 90, 235);
+}
+
+.team-section h3{
+    font-size: 20px;
+    margin: 20px auto;
+    color: rgb(159, 70, 241);
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid rgb(159, 70, 241);
+    text-align: center;
+    width: 300px;
+}
+
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.team-member {
+    flex: 1 1 250px;  
+    max-width: 300px; 
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover{
+    transform: translateY(-10px);
+}
+
+.team-member img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.team-member h4{
+    margin: 15px 0  5px;
+    font-size: 20px;
+}
+
+.team-member p{
+    margin:0;
+    font-size: 15px;
+    color:rgb(186, 130, 238);
+}
